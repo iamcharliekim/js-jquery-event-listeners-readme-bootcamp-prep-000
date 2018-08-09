@@ -22,6 +22,7 @@ function pressIt(){
 function submitIt(){
   $('#typing').on("submit", function(){
     alert ("Your form is going to be submitted now.");
+    return;
   });
 }
 
